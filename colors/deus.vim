@@ -482,6 +482,7 @@ else
 endif
 
 call s:HL('Comment', s:gray, s:none, s:italicize_comments)
+call s:HL('DocComment', s:fg4, s:none, s:italicize_comments)
 call s:HL('Todo', s:vim_fg, s:vim_bg, s:bold . s:italic)
 call s:HL('Error', s:red, s:vim_bg, s:bold . s:inverse)
 "call s:HL("Error", { "fg": s:red, "bg": s:vim_bg }) " any erroneous construct
@@ -971,6 +972,12 @@ hi! link cssColorProp deusAqua
 hi! link cssGeneratedContentProp deusAqua
 
 " }}}
+
+" Dart {{{ "
+hi! link dartInterpolation deusBlue
+hi! link dartLineDocComment DocComment
+" }}}
+
 " JavaScript: {{{
 
 hi! link javaScriptBraces deusFg1
