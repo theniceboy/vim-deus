@@ -976,6 +976,7 @@ hi! link cssGeneratedContentProp deusAqua
 " Dart {{{ "
 hi! link dartInterpolation deusBlue
 hi! link dartLineDocComment DocComment
+hi! link dartOperator deusBlue
 " }}}
 
 " JavaScript: {{{
