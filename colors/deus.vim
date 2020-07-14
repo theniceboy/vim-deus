@@ -979,6 +979,15 @@ hi! link dartLineDocComment DocComment
 hi! link dartOperator deusBlue
 " }}}
 
+
+" TypeScript
+hi! link typescriptOperator deusRed
+hi! link typescriptExceptions deusRed
+hi! link typescriptStorageClass deusYellow
+hi! link typescriptVariable deusYellow
+hi! link typescriptIdentifierName deusYellow
+hi! link typescriptCall deusGreenBold
+
 " JavaScript: {{{
 
 hi! link javaScriptBraces deusFg1
