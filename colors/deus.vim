@@ -977,6 +977,8 @@ hi! link cssGeneratedContentProp deusAqua
 hi! link dartInterpolation deusBlue
 hi! link dartLineDocComment DocComment
 hi! link dartOperator deusBlue
+hi! link dartTypedef deusOrange
+hi! link dartLibrary deusBlue
 " }}}
 
 
